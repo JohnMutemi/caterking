@@ -72,7 +72,7 @@ export function CTASection() {
               <div className="space-y-4">
                 {/* Phone */}
                 <a
-                  href={`tel:${companyInfo.phone}`}
+                  href={`tel:${companyInfo.phonePrimary}`}
                   className="flex items-center gap-4 p-4 bg-primary-foreground/5 rounded-xl border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-colors group"
                 >
                   <div className="w-12 h-12 bg-accent/20 rounded-xl flex items-center justify-center">

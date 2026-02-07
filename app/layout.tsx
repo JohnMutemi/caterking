@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Caterking Superior Kitchen Appliances",
-    description: "Professional Commercial Kitchen Equipment - Built for Performance",
+    description: "Embracing Quality and Affordability - Professional Commercial Kitchen Equipment",
     type: "website",
     locale: "en_KE",
   },

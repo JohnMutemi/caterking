@@ -203,7 +203,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 variant="outline"
                 className="w-full h-14 text-base font-semibold bg-transparent"
               >
-                <a href={`tel:${companyInfo.phone}`}>
+                <a href={`tel:${companyInfo.phonePrimary}`}>
                   <Phone className="mr-2 h-5 w-5" />
                   Call {companyInfo.phone}
                 </a>

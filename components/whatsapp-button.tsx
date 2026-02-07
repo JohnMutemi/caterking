@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { MessageCircle, X } from "lucide-react";
 import { companyInfo } from "@/lib/data";
 import { useState, useEffect } from "react";
@@ -28,8 +29,14 @@ export function WhatsAppButton() {
           <div className="bg-[#075E54] p-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold">CK</span>
+                <div className="relative w-10 h-10 flex items-center justify-center">
+                  <Image
+                    src="/logo.png"
+                    alt="Caterking Logo"
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                  />
                 </div>
                 <div>
                   <p className="font-semibold text-white">Caterking</p>

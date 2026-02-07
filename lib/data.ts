@@ -253,9 +253,11 @@ export function getCategoryBySlug(slug: string): Category | undefined {
 
 export const companyInfo = {
   name: "Caterking Superior Kitchen Appliances",
-  tagline: "Professional Commercial Kitchen Equipment – Built for Performance",
-  phone: "+254 700 000 000",
-  whatsapp: "+254700000000",
+  tagline: "Embracing Quality and Affordability",
+  phone: "0740797400 / 0717133806",
+  phonePrimary: "0740797400",
+  phoneSecondary: "0717133806",
+  whatsapp: "254740797400",
   email: "info@caterking.co.ke",
   address: "Mombasa Road, Nairobi, Kenya",
   location: {

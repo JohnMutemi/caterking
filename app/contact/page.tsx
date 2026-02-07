@@ -16,7 +16,7 @@ const contactMethods = [
     title: "Phone",
     description: "Call us for immediate assistance",
     value: companyInfo.phone,
-    href: `tel:${companyInfo.phone}`,
+    href: `tel:${companyInfo.phonePrimary}`,
     cta: "Call Now",
     color: "bg-blue-500/10 text-blue-600",
   },
@@ -183,7 +183,7 @@ export default function ContactPage() {
                 size="lg"
                 className="bg-accent hover:bg-accent/90 text-accent-foreground h-14 px-8 text-base font-semibold"
               >
-                <a href={`tel:${companyInfo.phone}`}>
+                <a href={`tel:${companyInfo.phonePrimary}`}>
                   <Phone className="mr-2 h-5 w-5" />
                   Call {companyInfo.phone}
                 </a>

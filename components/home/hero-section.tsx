@@ -69,7 +69,7 @@ export function HeroSection() {
               Professional
               <span className="block text-accent">Kitchen Equipment</span>
               <span className="block text-3xl sm:text-4xl lg:text-5xl mt-2 font-sans font-normal text-primary-foreground/80">
-                Built for Performance
+                Embracing Quality and Affordability
               </span>
             </h1>
 

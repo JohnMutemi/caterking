@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter } from "lucide-react";
 import { companyInfo, categories } from "@/lib/data";
 
@@ -25,13 +26,19 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-4">
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-xl">CK</span>
+              <div className="relative w-12 h-12 flex items-center justify-center">
+                <Image
+                  src="/logo.png"
+                  alt="Caterking Logo"
+                  width={48}
+                  height={48}
+                  className="object-contain"
+                />
               </div>
               <div>
                 <span className="font-bold text-xl">Caterking</span>
                 <span className="block text-xs text-primary-foreground/60 -mt-0.5">
-                  Superior Kitchen Appliances
+                  Embracing Quality and Affordability
                 </span>
               </div>
             </Link>
@@ -113,7 +120,7 @@ export function Footer() {
             <ul className="mt-6 space-y-4">
               <li>
                 <a
-                  href={`tel:${companyInfo.phone}`}
+                  href={`tel:${companyInfo.phonePrimary}`}
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors"
                 >
                   <div className="w-10 h-10 bg-primary-foreground/10 rounded-lg flex items-center justify-center flex-shrink-0">
