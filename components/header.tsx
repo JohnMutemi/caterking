@@ -77,13 +77,13 @@ export function Header() {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-12 flex items-center justify-center">
+            <div className="relative w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center bg-background/80 dark:bg-background/90 rounded-lg p-2 shadow-sm border border-border/50 group-hover:shadow-md group-hover:scale-105 transition-all duration-300">
               <Image
                 src="/logo.png"
                 alt="Caterking Logo"
-                width={48}
-                height={48}
-                className="object-contain"
+                width={64}
+                height={64}
+                className="object-contain w-full h-full"
                 priority
               />
             </div>
@@ -185,13 +185,13 @@ export function Header() {
                 className="flex items-center gap-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <div className="relative w-10 h-10 flex items-center justify-center">
+                <div className="relative w-12 h-12 flex items-center justify-center bg-background rounded-lg p-2 shadow-sm border border-border">
                   <Image
                     src="/logo.png"
                     alt="Caterking Logo"
-                    width={40}
-                    height={40}
-                    className="object-contain"
+                    width={48}
+                    height={48}
+                    className="object-contain w-full h-full"
                   />
                 </div>
                 <span className="font-bold text-foreground text-lg">Caterking</span>

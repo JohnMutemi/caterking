@@ -25,14 +25,14 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
           {/* Brand Column */}
           <div className="lg:col-span-4">
-            <Link href="/" className="flex items-center gap-3">
-              <div className="relative w-12 h-12 flex items-center justify-center">
+            <Link href="/" className="flex items-center gap-3 group">
+              <div className="relative w-14 h-14 flex items-center justify-center bg-primary-foreground/10 rounded-lg p-2 shadow-sm border border-primary-foreground/20 group-hover:bg-primary-foreground/20 group-hover:scale-105 transition-all duration-300">
                 <Image
                   src="/logo.png"
                   alt="Caterking Logo"
-                  width={48}
-                  height={48}
-                  className="object-contain"
+                  width={56}
+                  height={56}
+                  className="object-contain w-full h-full"
                 />
               </div>
               <div>

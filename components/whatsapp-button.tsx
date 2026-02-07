@@ -29,13 +29,13 @@ export function WhatsAppButton() {
           <div className="bg-[#075E54] p-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="relative w-10 h-10 flex items-center justify-center">
+                <div className="relative w-12 h-12 flex items-center justify-center bg-white/10 rounded-lg p-1.5 border border-white/20">
                   <Image
                     src="/logo.png"
                     alt="Caterking Logo"
-                    width={40}
-                    height={40}
-                    className="object-contain"
+                    width={48}
+                    height={48}
+                    className="object-contain w-full h-full rounded"
                   />
                 </div>
                 <div>
